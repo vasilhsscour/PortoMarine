@@ -16,18 +16,20 @@ body {
 */
 
 .navbar {
-    background: #031429 !important;
+    /* background: #031429 !important; */
+    background-color: transparent !important;
     padding: 10px 0px !important;
-    /* transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out; */
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .navbar .navbar-header {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
     font-family: "Brush Script MT", cursive;
     font-size: 40px;
     font-style: normal;
@@ -54,7 +56,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     padding: 15px;
-    border: 1px solid #031429;
+    border: 1px solid transparent;
     border-radius: 50%;
     transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
@@ -96,6 +98,24 @@ body {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
+/* ================================================
+        Navigation Style On Scroll Start
+   ================================================
+*/
+
+.onScroll {
+    display: none !important;
+}
+
+.addBgc {
+    background: rgba(11, 104, 134, 0.5) !important;
+}
+
+/* ================================================
+        Navigation Style On Scroll End
+   ================================================
+*/
 
 /* ================================================
         Navigation Style End
