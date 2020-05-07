@@ -44,7 +44,7 @@ body {
 }
 
 .navbar .navbar-header:hover {
-    color: rgb(89, 158, 204) !important;
+    color: rgb(157, 170, 179) !important;
 }
 
 .navbar button {
@@ -88,8 +88,8 @@ body {
 }
 
 .navbar ul li a:hover {
-    border: 1px solid rgba(184, 184, 184, 0.356);
-    background-color: rgba(184, 184, 184, 0.356);
+    border: 1px solid rgba(184, 184, 184, 0.5);
+    background-color: rgba(184, 184, 184, 0.5);
     color: white;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -99,7 +99,7 @@ body {
 }
 
 .navbar ul li a:focus {
-    border: 1px solid rgba(184, 184, 184, 0.356);
+    border: 1px solid rgba(184, 184, 184, 0.5);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -131,7 +131,7 @@ body {
 }
 
 .addBgc {
-    background: rgba(11, 104, 134, 0.5) !important;
+    background: rgba(11, 103, 134, 0.8) !important;
 }
 
 /* ================================================
@@ -188,10 +188,139 @@ body {
 }
 
 .slider a span:hover {
-    color: rgba(11, 104, 134, 0.5) !important;
+    color: rgba(11, 104, 134, 0.8) !important;
 }
 
 /* ================================================
         Slider Style End
    ================================================
+*/
+
+.about-us-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgba(153, 209, 209, 0.137);
+}
+
+.about-us-title {
+    margin-bottom: 20px;
+}
+
+.about-us-title h2 {
+    color: rgb(13, 13, 104);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about-us-title .underline {
+    position: relative;
+    width: 40px;
+    border-bottom: 2px solid rgb(13, 13, 104);
+    margin: 0 auto;
+}
+
+.about-us-wrap {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    margin-top: 20px;
+    z-index: 9;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.about-us-wrap::before, .about-us-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 400%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: rgba(11, 103, 134);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.about-us-wrap::before {
+    top: -37px;
+    left: 100%;
+}
+
+.about-us-wrap:hover:before {
+    left: -27px;
+    opacity: 1;
+}
+
+.about-us-wrap::after {
+    bottom: -37px;
+    right: 100%;
+}
+
+.about-us-wrap:hover:after {
+    opacity: 1;
+    right: -27px;
+}
+
+.about-us-wrap:hover .about-us-header i {
+    color: rgb(252, 246, 246);
+}
+
+.about-us-wrap:hover .about-us-header h2 {
+    color: rgb(252, 246, 246);
+}
+
+.about-us-wrap:hover p {
+    color: rgb(252, 246, 246);
+}
+
+.about-us-header h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(13, 13, 104);
+}
+
+.about-us-header i {
+    color: rgb(13, 13, 104);
+    padding: 10px;
+    font-size: 50px;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.about-us-wrap p {
+    color: rgb(78, 75, 74);
+}
+
+.about-us-wrap:hover .about-us-header i {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+/* ================================================
+        About Us Style Begin
+================================================
+*/
+
+/* ================================================
+        About Us Style End
+================================================
 */
