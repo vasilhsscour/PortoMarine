@@ -2,7 +2,7 @@
 
 body {
     overflow-x: hidden;
-    height: 20000px;
+    background-color: rgb(201, 194, 194);
 }
 
 * {
@@ -393,9 +393,41 @@ body {
 ================================================
 */
 
+.dishes-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+.dishes-header {
+    margin-bottom: 90px;
+    color: rgb(207, 218, 250);
+}
+
+.dishes-header h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dishes-header p {
+    margin-top: -10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .dishes-wrap .dish-info img {
-    width: 40%;
+    width: 100%;
     height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 /* ================================================
