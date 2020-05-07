@@ -355,6 +355,11 @@ body {
     padding-right: 0;
 }
 
+/* .row.no-gutters [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+} */
+
 .store-wrap {
     overflow: hidden;
 }
@@ -367,7 +372,6 @@ body {
     -moz-transition: transform 0.5s ease;
     -ms-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
-    overflow: hidden;
 }
 
 .store-wrap img:hover {
