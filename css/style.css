@@ -404,7 +404,7 @@ body {
 
 .dishes-header {
     margin-bottom: 90px;
-    color: rgb(207, 218, 250);
+    color: rgb(169, 228, 248);
 }
 
 .dishes-header h2 {
@@ -422,12 +422,37 @@ body {
 .dishes-wrap .dish-info img {
     width: 100%;
     height: auto;
-    padding: 5px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    padding-left: 12px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.dish-info .dish-description {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: bisque;
+}
+
+.dishes-area .owl-theme .owl-dots {
+    margin-top: 30px !important;
+}
+
+.dishes-area .owl-theme .owl-dot span {
+    background: rgb(241, 223, 201) !important;
+}
+
+.dishes-area .owl-theme .owl-dot.active span {
+    background: rgba(11, 103, 134) !important;
+}
+
+.dishes-area .owl-theme .owl-dot:hover span {
+    background: rgba(11, 103, 134) !important;
 }
 
 /* ================================================
