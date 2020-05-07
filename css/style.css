@@ -89,7 +89,6 @@ body {
 
 .navbar ul li a:hover {
     border: 1px solid rgba(184, 184, 184, 0.356);
-    ;
     background-color: rgba(184, 184, 184, 0.356);
     color: white;
     border-radius: 50%;
@@ -188,11 +187,9 @@ body {
     -o-background-size: cover;
 }
 
-/* .carousel .active.left {
-    left: 0;
-    opacity: 0;
-    z-index: 2;
-} */
+.slider a span:hover {
+    color: rgba(11, 104, 134, 0.5) !important;
+}
 
 /* ================================================
         Slider Style End
