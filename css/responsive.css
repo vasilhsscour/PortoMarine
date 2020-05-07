@@ -1,0 +1,38 @@
+@media screen and (max-width:995px) {
+    .navbar ul li a {
+        padding-left: 10px !important;
+    }
+    .navbar ul li a {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .navbar ul li a:hover {
+        border: 1px solid rgba(184, 184, 184, 0.356);
+        background-color: rgba(184, 184, 184, 0.356);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .navbar ul li a:focus {
+        border: 1px solid rgba(184, 184, 184, 0.356);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .navbar ul li a.location {
+        border: 1px solid white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}

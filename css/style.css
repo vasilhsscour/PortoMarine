@@ -27,9 +27,7 @@ body {
 }
 
 .navbar .navbar-header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px;
     font-family: "Brush Script MT", cursive;
     font-size: 40px;
     font-style: normal;
@@ -46,6 +44,26 @@ body {
 }
 
 .navbar .navbar-header:hover {
+    color: rgb(89, 158, 204) !important;
+}
+
+.navbar button {
+    margin-right: 10px !important;
+    border-color: rgba(6, 88, 116, 0.6) !important;
+    background-color: rgba(6, 88, 116, 0.6);
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.navbar button:hover {
+    border-color: rgba(6, 88, 116, 0.6);
+    background-color: rgba(0, 153, 204, 0.5);
+}
+
+.navbar button .navbar .navbar-header:hover {
     color: lightgray !important;
 }
 
@@ -106,6 +124,11 @@ body {
 
 .onScroll {
     display: none !important;
+    transition: all 0.9s ease-in;
+    -webkit-transition: all 0.9s ease-in;
+    -moz-transition: all 0.9s ease-in;
+    -ms-transition: all 0.9s ease-in;
+    -o-transition: all 0.9s ease-in;
 }
 
 .addBgc {
@@ -119,5 +142,59 @@ body {
 
 /* ================================================
         Navigation Style End
+   ================================================
+*/
+
+/* ================================================
+        Slider Style Begin
+   ================================================
+*/
+
+.carousel-item {
+    position: fixed;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+}
+
+.slider .one {
+    background: url(../img/slide1.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+}
+
+.slider .two {
+    background: url(../img/slide2.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+}
+
+.slider .three {
+    background: url(../img/slide3.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* .carousel .active.left {
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+} */
+
+/* ================================================
+        Slider Style End
    ================================================
 */
