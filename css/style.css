@@ -459,3 +459,26 @@ body {
         Dishes Style End
 ================================================
 */
+
+/* ================================================
+        Menu Style Begin
+================================================
+*/
+
+.menu-wrap {
+    display: block;
+    position: relative;
+}
+
+.menu-wrap button {
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* ================================================
+        Menu Style End
+================================================
+*/

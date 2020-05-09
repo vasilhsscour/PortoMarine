@@ -1,5 +1,6 @@
 $(function () {
 
+    // when scrool the menu disapears
     $(window).scroll(function () {
         var top = $(window).scrollTop();
         if (top >= 100) {
@@ -21,6 +22,7 @@ $(function () {
         }
     });
 
+    // when hover over the nav bar the navigation bar appearse
     $("nav").hover(function () {
         var top = $(window).scrollTop();
 
@@ -45,9 +47,13 @@ $(function () {
         }
     });
 
+    // add delay to the carousel slider
+
     $('.carousel').carousel({
         interval: 8000
     });
+
+    // js for the magnific popup
 
     $('.store-area').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
@@ -57,6 +63,7 @@ $(function () {
         }
     });
 
+    // js for the owl carousel
     $("#dishes-wrap").ready(function () {
         $(".owl-carousel").owlCarousel({
             items: 3,
