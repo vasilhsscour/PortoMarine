@@ -85,4 +85,43 @@ $(function () {
         });
     });
 
+    // for the menu section
+
+    $(".menu-wrap button").on("click", function () {
+        var menu = this.id;
+
+        $.getJSON("json/menu.json", function (data) {
+            var items = [];
+            switch (menu) {
+                case "salads":
+                    items = data.salads;
+                    break;
+                case "starter":
+                    items = data.starter;
+                    break;
+                case "seafood":
+                    items = data.seafood;
+                    break;
+                case "maindishes":
+                    items = data.maindishes;
+                    break;
+                case "beer":
+                    items = data.beer;
+                    break;
+                case "ouza":
+                    items = data.ouza;
+                    break;
+                case "wines":
+                    items = data.wines;
+                    break;
+            }
+            $(".menu-info ol").empty();
+            $.each(items[0], function (key, value) {
+                $(".menu-info ol").append("<li>" + key + "\t" + value + "</li>");
+            });
+        });
+
+
+
+    });
 });

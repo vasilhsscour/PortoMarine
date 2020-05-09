@@ -1,0 +1,18 @@
+{
+    "salads": [
+        {
+            "Traditional Greek Salad": 5.5,
+            "Mixed Salad": 5.5,
+            "Season Greens": 4,
+            "Porto Marine": 7,
+            "Ceasar's": 8
+        }
+    ],
+    "starter": [
+        {
+            "fresh fries": 2.5,
+            "flogeres": 5.5,
+            "zuchini balls": 4
+        }
+    ]
+}
