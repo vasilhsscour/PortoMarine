@@ -1,18 +1,71 @@
 {
     "salads": [
         {
-            "Traditional Greek Salad": 5.5,
-            "Mixed Salad": 5.5,
-            "Season Greens": 4,
+            "traditional greek salad": 5.5,
+            "mixed salad": 5.5,
+            "fresh beetroots": 4,
+            "fresh seasonal greens": 4,
             "Porto Marine": 7,
-            "Ceasar's": 8
+            "Ceasar's salad": 8
         }
     ],
-    "starter": [
+    "starters": [
         {
-            "fresh fries": 2.5,
-            "flogeres": 5.5,
-            "zuchini balls": 4
+            "fresh fries potatoes": 2.5,
+            "rollos with ham and cheese": 5.5,
+            "zucchini balls": 4,
+            "mini cheese pies": 4,
+            "Fried feta with marmelade": 5.5,
+            "feta cheese with olive oil and oregano": 3,
+            "grilled feta cheese": 4.5,
+            "fried vegetables": 5,
+            "grilled pleurotus": 5,
+            "saganaki": 4,
+            "tzatziki": 3,
+            "spicy cheese spread": 3.5,
+            "eggplant salad": 3.5,
+            "fish roe salad": 3.5
+        }
+    ],
+    "seafood": [
+        {
+            "marinated anchovy": 5,
+            "fried anchovy": 7,
+            "marinated octopus in vinegar": 8.5,
+            "grilled octopus": 10,
+            "fried shrimp": 7,
+            "grilled shrimp": 10,
+            "shrimp saganaki": 10,
+            "fried squid": 8.5,
+            "grilled squid": 10,
+            "sardines fillet with onion": 8,
+            "steamed mussels": 7.5,
+            "smalled fried fish": 9,
+            "mussels pilef": 8
+        }
+    ],
+    "special": [
+        {
+            "pasta with shrimp": 12,
+            "Risotto ofyour choide": "-",
+            "paella": 16,
+            "carbonara": 8,
+            "penne with chicken and sun tomato": 7.5
+        }
+    ],
+    "grill": [
+        {
+            "pork steak": 7.5,
+            "pancetta": 7,
+            "chicken fillet": 7.5,
+            "kebab": 8.5,
+            "country sausage": 7.5,
+            "veal steak": 10,
+            "beef burger": 8,
+            "beef burger filled with chees": 9,
+            "pork souvlaki": 5,
+            "chicken souvlaki": 6,
+            "mixed grill / per person": 7.5
         }
     ]
 }

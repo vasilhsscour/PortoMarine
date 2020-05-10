@@ -96,23 +96,17 @@ $(function () {
                 case "salads":
                     items = data.salads;
                     break;
-                case "starter":
-                    items = data.starter;
+                case "starters":
+                    items = data.starters;
                     break;
                 case "seafood":
                     items = data.seafood;
                     break;
-                case "maindishes":
-                    items = data.maindishes;
+                case "special":
+                    items = data.special;
                     break;
-                case "beer":
-                    items = data.beer;
-                    break;
-                case "ouza":
-                    items = data.ouza;
-                    break;
-                case "wines":
-                    items = data.wines;
+                case "grill":
+                    items = data.grill;
                     break;
             }
             $(".menu-info ol").empty();
