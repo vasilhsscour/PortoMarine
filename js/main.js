@@ -1,4 +1,12 @@
 $(function () {
+    $.getJSON("json/menu.json", function (data) {
+        var items = data.salads;
+        $(".menu-wrap button#salads").addClass("active");
+        $.each(items[0], function (key, value) {
+            $(".menu-info ol").append("<li><p class=\"plate\">" + key + "\t</p><p class=\"price\">" + value + " €</p></li>");
+        });
+
+    });
 
     // when scrool the menu disapears
     $(window).scroll(function () {
@@ -89,6 +97,12 @@ $(function () {
 
     $(".menu-wrap button").on("click", function () {
         var menu = this.id;
+        $.each($(".menu-wrap button"), function (key, value) {
+            if ($(value).hasClass("active")) {
+                $(value).removeClass("active");
+            }
+        });
+        $(this).addClass("active");
 
         $.getJSON("json/menu.json", function (data) {
             var items = [];
@@ -111,7 +125,7 @@ $(function () {
             }
             $(".menu-info ol").empty();
             $.each(items[0], function (key, value) {
-                $(".menu-info ol").append("<li>" + key + "\t" + value + "</li>");
+                $(".menu-info ol").append("<li><p class=\"plate\">" + key + "\t</p><p class=\"price\">" + value + "€</p></li>");
             });
         });
 

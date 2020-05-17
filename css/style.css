@@ -2,7 +2,6 @@
 
 body {
     overflow-x: hidden;
-    background-color: rgb(201, 194, 194);
 }
 
 * {
@@ -218,7 +217,6 @@ body {
 }
 
 .about-us-title .underline {
-    position: relative;
     width: 40px;
     border-bottom: 2px solid rgb(13, 13, 104);
     margin: 0 auto;
@@ -465,17 +463,166 @@ body {
 ================================================
 */
 
+.menu-area {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background-color: rgb(230, 230, 230);
+}
+
+.menu-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(13, 52, 92);
+}
+
+.underline {
+    width: 40px;
+    height: 2px;
+    background-color: rgb(13, 52, 92);
+    margin: 0 auto;
+}
+
+.menu-details {
+    margin-top: 70px;
+}
+
 .menu-wrap {
     display: block;
-    position: relative;
+    margin-left: 10px;
 }
 
 .menu-wrap button {
-    position: relative;
+    display: block;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+    height: auto;
+    color: rgb(230, 230, 230);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: rgb(38, 96, 155) !important;
+    position: relative;
+    margin-bottom: 5px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.menu-wrap button:hover {
+    color: rgb(240, 211, 174) !important;
+}
+
+.menu-wrap button.active {
+    background-color: rgb(13, 52, 92) !important;
+    color: rgb(240, 211, 174) !important;
+}
+
+.menu-wrap button::before, .menu-wrap button.active::before {
+    content: "\f068";
+    font-family: fontawesome;
+    width: 40px;
+    height: 40px;
+    line-height: 32px;
+    border-radius: 50%;
+    background: rgb(38, 96, 155);
+    color: rgb(230, 230, 230);
+    border: 5px solid rgb(230, 230, 230);
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    left: -20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.menu-wrap button.active::before {
+    content: "\f067";
+    background: rgb(13, 52, 92);
+    color: rgb(240, 211, 174);
+}
+
+.menu-wrap button:hover:before, .menu-wrap button.active:hover:before {
+    color: rgb(240, 211, 174);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.menu-info ol {
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.menu-info ol li {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background: rgb(13, 52, 92);
+    color: rgb(230, 230, 230);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: .25rem;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+}
+
+.menu-info ol li:hover {
+    background: rgb(38, 96, 155);
+    color: rgb(240, 211, 174);
+    cursor: pointer;
+}
+
+.menu-info ol li p.plate {
+    float: left;
+    width: 90%;
+}
+
+.menu-info ol li p.price {
+    float: right;
+    width: 10%;
+    visibility: hidden;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.menu-info ol li:hover p.price {
+    visibility: visible;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
 }
 
 /* ================================================
