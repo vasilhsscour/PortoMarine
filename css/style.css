@@ -629,3 +629,68 @@ body {
         Menu Style End
 ================================================
 */
+
+/* ================================================
+        Contact Us Style End
+================================================
+*/
+
+.contact-us-area {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background: rgb(239, 245, 245);
+}
+
+.contact-us-header {
+    margin-bottom: 30px;
+}
+
+.contact-us-header h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(13, 52, 92);
+}
+
+.contact-us-area .underline {
+    background: rgb(13, 52, 92);
+}
+
+#contactForm .form-control {
+    margin-bottom: 5px;
+    padding: 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: none;
+    border: 1px solid rgb(197, 201, 201);
+    background: rgb(13, 52, 92);
+    color: rgb(239, 245, 245);
+}
+
+#contactForm .form-control::placeholder {
+    color: rgb(239, 245, 245);
+}
+
+#contactForm button.btn {
+    background: rgb(13, 52, 92);
+    color: rgb(239, 245, 245);
+    font-size: 22px;
+    margin-top: 20px;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+#contactForm button.btn:hover {
+    background: rgba(13, 53, 92, 0.815);
+    color: rgb(239, 245, 245);
+}
+
+/* ================================================
+        Contact Us Style End
+================================================
+*/
