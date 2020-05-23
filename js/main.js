@@ -128,8 +128,9 @@ $(function () {
                 $(".menu-info ol").append("<li><p class=\"plate\">" + key + "\t</p><p class=\"price\">" + value + "€</p></li>");
             });
         });
-
-
-
     });
+    // send an email
+    function sendEmail() {
+        alert("You pressed me");
+    }
 });
