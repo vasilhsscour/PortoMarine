@@ -129,8 +129,16 @@ $(function () {
             });
         });
     });
-    // send an email
-    function sendEmail() {
-        alert("You pressed me");
-    }
+
+    // Add smooth scroll
+    $('a.smoothScroll').click(function (event) {
+        event.preventDefault();
+
+        var section = $(this).attr("href");
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - -2
+        }, 1250, "easeInOutExpo");
+
+    });
+
 });
