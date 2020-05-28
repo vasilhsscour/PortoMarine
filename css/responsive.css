@@ -156,6 +156,11 @@
     .menu-wrap button {
         font-size: 20px;
     }
+    #menu-info {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: -10px;
+    }
     .menu-info ol li {
         font-size: 16px;
     }
