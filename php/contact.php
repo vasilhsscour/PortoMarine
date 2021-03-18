@@ -38,6 +38,6 @@ if (!empty($_POST)) {
         $response = "Something is wrong: <br><br>" . $mail->ErrorInfo;
     }
 
-    header("Location: http://localhost/mypages/Porto%20Marine/#contact-us");
+    header("Location: http://www.theportomarine.com/#contact-us");
     exit();
 }
